@@ -1,0 +1,73 @@
+@charset "Shift_JIS";
+
+/*タグの初期設定の隙間を消す。*/
+*{
+margin: 0;
+padding: 0;
+}
+
+/*ページ全体で共通（基本）の設定*/
+body{
+font-family:"明朝体";
+text-align:left;
+background-image : url('pht/back.jpg') ;/* 背景色 */
+}
+
+/*メイン部の設定*/
+div#main{
+width:600px;
+margin:0 auto;
+padding:50px;
+background-color:white;
+}
+
+/*段落（ｐタグ）の設定*/
+p{
+margin-top: 10px;
+}
+
+/*h1タイトル部分の設定*/
+h1{
+color:white;
+font-size:200%;
+text-align:center;
+background-color:blue;
+}
+
+/*h2タイトル部分の設定*/
+h2{
+font-size:50px;
+color:white;
+text-align:center;
+}
+
+/*テーブル部分の設定*/
+table td{
+width:100px;
+height:30px;
+line-height:30px;
+margin:;
+background:none;
+text-align:center;
+}
+/*リンク文字の設定*/
+table td a{
+color:white;
+text-decoration:none;
+}
+
+/*フッタ　アドレス部分の設定*/
+address{
+font-size:95%;
+background-color:blue;
+color:white;
+margin-top:20px;
+padding:3px;
+text-align:center;
+}
+
+/*メニュー部分*/
+ul#menu li a{
+color:white;
+text-decoration:none;
+}
